@@ -145,6 +145,30 @@ FontAwesomeIcon {
     /* background-image: url('../../data/images/advant07.jpeg'); */
 }
 
+.friendsWrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #c3c3c3;
+    font-size: 1.5rem;
+}
+
+.friendsWrapper h4 {
+    margin-right: 5%;
+}
+
 .friendsImage {
-    background-image: url('../../data//images/friends.png');
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: -210px;
+}
+
+.friendsImage img {
+    width: 310px;
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './aboutUs.css';
-import friends from '../../data/images/friends01.png';
+import friends from '../../data/images/friendship.svg';
 
 import { Icon } from '@material-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -115,8 +115,9 @@ class AboutUs extends Component {
                 <div className='friendsWrapper'>
                     <h4>Познакомившись однажды, Вы останетесь с нами надолго!</h4>
                 </div>
-                <div className='friendsImage'></div>
-                <img src={friends} alt='friends'/>
+                <div className='friendsImage'>
+                    <img src={friends} alt='friends'/>
+                </div>
             </div>
 
         </div>

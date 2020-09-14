@@ -3,12 +3,10 @@ import './App.css';
 import Header from './components/header/header';
 import MainPage from './components/mainPage/mainPage';
 import AboutUs from './components/aboutUs/aboutUs';
+import Services from './components/services/services';
 
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
@@ -16,6 +14,7 @@ class App extends Component {
         <Header />
         <MainPage />
         <AboutUs />
+        <Services />
       </div>
     )
   }    
